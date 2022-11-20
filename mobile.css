@@ -233,7 +233,10 @@
     .choose-form form .chooseProcedureBox { padding: 30px 25px; }
     .choose-form form .inputs input { padding: 30px 25px; }
 
-    .main_button {width: 100%;}
+    .main_button {
+        width: 100%;
+    }
+
 
     footer .footer-soc { flex-wrap: wrap; flex-flow: wrap-reverse;}
     footer .footer-soc .phone {
