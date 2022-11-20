@@ -232,6 +232,9 @@ margin-left: 33px; position: relative; top:4px; cursor: pointer; }
 display: flex; align-items: center; width: 100%; }
 #services .services__list-left .item .chosen { color: #A2736D; }
 
+.services__list-right {
+    width: 750px;
+}
 #services .services__list-right h3 { margin-bottom: 44px;font-family: 'Prata';
 font-size: 26px;line-height: 35px;letter-spacing: 0.01em; color: #272727;
 font-weight: normal; }
@@ -905,5 +908,16 @@ line-height: 17px;text-align: center;color: #4F4F4F; max-width:280px; margin:0 a
 
 
 
+.input_phone {margin-left: 5px;}
+.main_button_list {
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 4px;
+}
     
-
+.scroll_box::-webkit-scrollbar {width: 7px;}
+  
+  .scroll_box::-webkit-scrollbar-thumb {
+    background-color: #E28C8C; 
+    border-radius: 20px; 
+  }
